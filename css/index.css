@@ -188,11 +188,56 @@ body {
   color: #000;
   margin-bottom: 80px;
 }
-.block2__bottom img{
-  max-width: 70%;  
+.block2__bottom img {
+  max-width: 70%;
   margin-left: 17%;
 }
 
+/* Section contact */
+.contact__row {
+  height: 750px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact__image {
+  padding-top: 80px;
+}
+.contact__body {
+  margin-left: 107px;
+}
+.contact__body h2 {
+  font-size: 40px;
+  line-height: 64px;
+  font-weight: 800;
+  margin-bottom: 34px;
+}
+.contact__body input {
+  padding: 9px 207px 8px 24px;
+  width: 486px;
+  height: 45px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 28px;
+  cursor: pointer;
+  outline: none;
+}
+
+.contact__body button {
+  width: 486px;
+  height: 55px;
+  background-color: #8c30f5;
+  border-radius: 8px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
 
 /* Media requests */
 @media (max-width: 1200px) {
@@ -224,13 +269,13 @@ body {
   .block1__top h2 {
     font-size: 30px;
   }
-  .block1__row{
+  .block1__row {
     height: auto;
   }
   .block2__top h2 {
     font-size: 30px;
   }
-  .block2__row{
+  .block2__row {
     height: auto;
   }
 }
@@ -332,21 +377,21 @@ body {
   .hero__row {
     height: 400px;
   }
-  .block1__row{
+  .block1__row {
     height: auto;
   }
   .block1__top h2 {
     font-size: 25px;
   }
-  .block2__row{
+  .block2__row {
     height: auto;
   }
-  .block2__top h2{
+  .block2__top h2 {
     font-size: 25px;
     margin-bottom: 20px;
   }
-  .block2__bottom img{
-    max-width: 40%;  
+  .block2__bottom img {
+    max-width: 40%;
     margin-left: 30%;
   }
 }
@@ -377,9 +422,9 @@ body {
     flex-wrap: wrap-reverse;
     text-align: center;
     height: auto;
-  }  
-  .block1__row{
-      height: auto;
+  }
+  .block1__row {
+    height: auto;
   }
   .block1__top h2 {
     font-size: 20px;
@@ -387,10 +432,10 @@ body {
     margin: 30px 0;
   }
   .block1__item {
-    flex: 0 1 100%;    
+    flex: 0 1 100%;
   }
-  .block2__bottom img{
-    max-width: 70%;  
+  .block2__bottom img {
+    max-width: 70%;
     margin-left: 17%;
   }
   .block2__top h2 {
