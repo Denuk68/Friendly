@@ -199,12 +199,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 .contact__image {
   padding-top: 80px;
+  flex: 0 1 50%;
 }
 .contact__body {
   margin-left: 107px;
+  flex: 0 1 50%;
 }
 .contact__body h2 {
   font-size: 40px;
@@ -225,7 +228,6 @@ body {
   cursor: pointer;
   outline: none;
 }
-
 .contact__body button {
   width: 486px;
   height: 55px;
@@ -238,9 +240,12 @@ body {
   cursor: pointer;
   outline: none;
 }
+.contact__image img{
+  max-width: 100%;
+}
 
 /* Media requests */
-@media (max-width: 1200px) {
+@media (max-width: 1200px) { 
   .container {
     max-width: 970px;
   }
@@ -277,6 +282,20 @@ body {
   }
   .block2__row {
     height: auto;
+  }
+  .contact__body input {    
+    width: 286px;
+    height: 45px;   
+  }
+  .contact__body button {
+    width: 286px;
+    height: 55px;   
+  }
+  .contact__row{
+    height: auto;
+  }
+  .contact__body h2{
+    font-size: 30px;
   }
 }
 
@@ -394,6 +413,12 @@ body {
     max-width: 40%;
     margin-left: 30%;
   }
+  .contact__row{
+    height: auto;
+  }
+  .contact__body h2{
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -430,6 +455,7 @@ body {
     font-size: 20px;
     line-height: 40px;
     margin: 30px 0;
+    text-align: center;
   }
   .block1__item {
     flex: 0 1 100%;
@@ -439,9 +465,42 @@ body {
     margin-left: 17%;
   }
   .block2__top h2 {
+    text-align: center;
     font-size: 20px;
     line-height: 40px;
     margin: 30px 0;
+  }  
+  .contact__row{
+    flex-wrap: wrap;    
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .contact__body{
+    margin-left: 0;
+  }
+  .contact__body h2{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .contact__image {   
+    padding: 20px 0 0 0; 
+    flex: 0 1 75%;
+  }
+  .contact__body {    
+    flex: 0 1 50%;
+  }
+  .contact__body input, .contact__body button {    
+    width: 280px;
+    height: 45px;   
+  }
+  .contact__body button{
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
   }
 }
 
