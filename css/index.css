@@ -602,6 +602,9 @@ body {
     line-height: 14px;
     color: #D9DBE1;
   }
+  .contact__body input {
+    padding: 9px 20px 8px 24px;   
+  }
 }
 
 @font-face {
